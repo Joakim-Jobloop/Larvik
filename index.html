@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,18 +12,20 @@
         <img class="logo" src="/images/icons/react-icon.png" alt="" />
       </figure>
       <nav>
-        <a href="">home</a>
-        <a href="">projects</a>
-        <a href="">about</a>
-        <a href="">contact</a>
+        <a href=""><p>home</p></a>
+        <a href="#projects"><p>projects</p></a>
+        <a href=""><p>about</p></a>
+        <a href="./contact.html"><p>contact</p></a>
       </nav>
     </header>
     <main>
       <section class="hero">
+        <div class="hero_bg"></div>
         <h1>Welcome to my webpage!</h1>
       </section>
       <section class="intro">
         <article>
+          <img src="/images/icons/projects/catHotdog.png" alt="" />
           <h2>About me</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id placeat
@@ -40,27 +42,75 @@
         </article>
       </section>
       <section class="skills">
-        <img src="/images/icons/canva-icon.png" alt="canva icon" /><img src="/images/icons/chakraUI-icon.png" alt="chakraUI icon" /><img src="/images/icons/git-icon.png" alt="" /><img
+        <img src="/images/icons/canva-icon.png" alt="canva icon" /><img
+          src="/images/icons/chakraUI-icon.png"
+          alt="chakraUI icon"
+        /><img src="/images/icons/git-icon.png" alt="" /><img
           src="/images/icons/figma-icon.png"
           alt=""
-        /><img src="/images/icons/github-icon.png" alt="" /><img src="images/icons/html5-icon.png" alt="" /><img src="/images/icons/javascript-icon.png" alt="" /><img
+        /><img src="/images/icons/github-icon.png" alt="" /><img
+          src="images/icons/html5-icon.png"
+          alt=""
+        /><img src="/images/icons/javascript-icon.png" alt="" /><img
           src="images/icons/nextjs-icon.png"
           alt=""
         /><img src="images/icons/nuxt-icon.png" alt="" /><img src="" alt="" />
       </section>
+      <section id="projects" class="projects">
+        <a
+          target="_blank"
+          href="https://github.com/VilloKodeHode/react-portoflio-example"
+        >
+          <div class="project_card">
+            <h3>Project1</h3>
+            <img src="/images/icons/projects/banjo_cat.webp" alt="" />
+            <p>description of the project</p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/VilloKodeHode/react-portoflio-example"
+        >
+          <div class="project_card">
+            <h3>Project1</h3>
+            <img src="/images/icons/projects/banjo_cat.webp" alt="" />
+            <p>description of the project</p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/VilloKodeHode/react-portoflio-example"
+        >
+          <div class="project_card">
+            <h3>Project1</h3>
+            <img src="/images/icons/projects/banjo_cat.webp" alt="" />
+            <p>description of the project</p>
+          </div>
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/VilloKodeHode/react-portoflio-example"
+        >
+          <div class="project_card">
+            <h3>Project1</h3>
+            <img src="/images/icons/projects/banjo_cat.webp" alt="" />
+            <p>description of the project</p>
+          </div>
+        </a>
+      </section>
     </main>
     <footer>
-        <div class="footer-info">
-            <p>My name</p>
-            <p>My location</p>
-            <p>My contact information</p>
-        </div>
-        <nav>
-            <a href="">home</a>
-            <a href="">projects</a>
-            <a href="">about</a>
-            <a href="">contact</a>
-          </nav>
+      <div class="footer-info">
+        <p>My name</p>
+        <p>My location</p>
+        <p>My contact information</p>
+      </div>
+      <nav>
+        <a href="">home</a>
+        <a href="">projects</a>
+        <a href="">about</a>
+        <a href="">contact</a>
+      </nav>
     </footer>
   </body>
 </html>
